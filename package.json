@@ -1,0 +1,40 @@
+{
+  "name": "sign-generator",
+  "version": "1.0.6",
+  "description": "eform sign-generator",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src --presets babel-preset-es2015 --out-dir dist",
+    "test": "mocha ./test/*.js --recursive -w --globals global --timeout 10000",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git-codecommit.ap-northeast-2.amazonaws.com/v1/repos/sign-generator"
+  },
+  "keywords": [
+    "eform",
+    "sign generator",
+    "sign",
+    "stamp generator",
+    "stamp",
+    "generator",
+    "creator",
+    "maker",
+    "svg"
+  ],
+  "author": "david.yoon <dbseogns1212@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "text-to-svg": "^3.1.5"
+  },
+  "devDependencies": {
+    "assert": "^2.0.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "eslint": "^5.12.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "mocha": "^7.0.0"
+  }
+}
