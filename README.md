@@ -44,14 +44,6 @@ app.get('/sign/:text', async (req, res) => {
 });
 ```
 
-## Output
-### sign
-<img src="https://i.ibb.co/2WdTPW5/sign.png" alt="sign" border="0">
-
-### stamp
-<img src="https://i.ibb.co/DQkyb9P/stamp.png" alt="stamp" border="0">
-
-
 ## createSign, createStamp parameters
 name                | type               | required   | default   | description
 :------------------ | :----------------: | :--------: | :-------: | ------------
@@ -74,3 +66,11 @@ name                | type               | default                              
 `attributes`        | object             | { fill: 'black' }                       | font color
 `boxOption`         | object             | { width: 122,height: 122 }              | 전체 svg 화면 크기
 `borderOption`      | object             | { stroke: '#ff0000', strokeWidth: 2.3 } | border option
+
+
+## Output
+### sign
+<img src="https://i.ibb.co/2WdTPW5/sign.png" alt="sign" border="0">
+
+### stamp
+<img src="https://i.ibb.co/DQkyb9P/stamp.png" alt="stamp" border="0">
