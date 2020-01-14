@@ -48,7 +48,7 @@ app.get('/sign/:text', async (req, res) => {
 name                | type               | required   | default   | description
 :------------------ | :----------------: | :--------: | :-------: | ------------
 `text`              | string             | ✓          | -         | 변환할 텍스트
-`fonts`             | string&#124;object | ✓          | -         | 폰트 경로(only file) 
+`fonts`             | string&#124;array  | ✓          | -         | 폰트 경로(only file) 
 `options`           | object             | ✘          | -         | 세부 옵션 
 
 #### createSign Available options
