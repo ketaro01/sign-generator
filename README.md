@@ -72,5 +72,5 @@ name                | type               | default                              
 :------------------ | :----------------: | :-------------------------------------- | ------------
 `fontSize`          | number             | 22                                      | font size 
 `attributes`        | object             | { fill: 'black' }                       | font color
-`boxOption`         | object             | { width: 100,height: 200 }              | 전체 svg 화면 크기
+`boxOption`         | object             | { width: 122,height: 122 }              | 전체 svg 화면 크기
 `borderOption`      | object             | { stroke: '#ff0000', strokeWidth: 2.3 } | border option
